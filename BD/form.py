@@ -21,3 +21,5 @@ class LoginForm(FlaskForm):
 class WorksForm(FlaskForm):
     job = EmailField('Job', validators=[DataRequired()])
     submit = SubmitField('Войти')
+
+#dadadad
